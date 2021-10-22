@@ -1,0 +1,23 @@
+{
+  "name": "lunarbot",
+  "version": "1.0.0",
+  "description": "Website for team lunar bot",
+  "main": "index.js",
+  "author": "Adeepa Gunathilake",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:css": "postcss ./styles/styles.css -o ./styles/dist.css",
+    "build:css:watch": "postcss ./styles/styles.css -o ./styles/dist.css --watch"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.10",
+    "tailwindcss": "^2.2.17"
+  },
+  "devDependencies": {
+    "postcss-cli": "^9.0.1",
+    "postcss-import": "^14.0.2"
+  }
+}
