@@ -562,9 +562,6 @@ video {
 }.bg-white{
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-}.bg-gray-900{
-  --tw-bg-opacity: 1;
-  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
 }.bg-spider{
   background-image: url('/res/img/hero.jpg');
 }.bg-drill{
@@ -581,6 +578,9 @@ video {
   padding: 0.75rem;
 }.p-5{
   padding: 1.25rem;
+}.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }.px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -671,8 +671,6 @@ video {
   text-decoration: underline;
 }.opacity-10{
   opacity: 0.1;
-}.opacity-20{
-  opacity: 0.2;
 }.opacity-80{
   opacity: 0.8;
 }*, ::before, ::after{
